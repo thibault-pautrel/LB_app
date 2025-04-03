@@ -1,8 +1,13 @@
 
 import streamlit as st
+st.set_page_config(page_title="Évaluation de hanche", layout="wide")
+
+from PIL import Image
+import os
 
 import streamlit as st
-st.set_page_config(page_title="Évaluation de hanche", layout="wide")
+
+import streamlit as st
 
 from PIL import Image
 import os
@@ -18,7 +23,6 @@ from io import BytesIO
 from datetime import datetime
 from matplotlib.backends.backend_pdf import PdfPages
 
-st.set_page_config(page_title="Évaluation de hanche", layout="wide")
 st.title("🦵 Évaluation fonctionnelle et analytique de la hanche")
 
 # Patient name input
